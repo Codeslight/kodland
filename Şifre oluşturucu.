@@ -1,0 +1,10 @@
+import random
+uzunluk=int(input("Uzunluk girin:"))
+sifre=""
+
+karakterler="+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+
+for i in range(uzunluk):
+    k_s=random.choice(karakterler)
+    sifre+=k_s
+print(sifre)
